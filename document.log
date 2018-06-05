@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.16)  19 APR 2018 22:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  5 JUN 2018 10:23
 entering extended mode
 **./document.tex
 (document.tex
@@ -262,144 +262,127 @@ Overfull \hbox (262.00835pt too wide) in paragraph at lines 56--62
  []
 
 
-Overfull \hbox (16.19044pt too wide) in paragraph at lines 71--82
+Overfull \hbox (16.19044pt too wide) in paragraph at lines 72--83
 [][] 
  []
 
 
-Overfull \hbox (262.00835pt too wide) in paragraph at lines 66--83
+Overfull \hbox (262.00835pt too wide) in paragraph at lines 67--84
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (262.00835pt too wide) in paragraph at lines 87--98
+Overfull \hbox (262.00835pt too wide) in paragraph at lines 89--100
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 []\OT1/cmr/bx/n/10.95 Training&
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 107.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 110.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 110.
 
-Overfull \hbox (267.98926pt too wide) in paragraph at lines 102--111
+Overfull \hbox (267.98926pt too wide) in paragraph at lines 105--115
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-[]\OT1/cmr/bx/n/10.95 Research
- []
-
-
-Overfull \hbox (273.96106pt too wide) in paragraph at lines 115--122
-[]$[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 []\OT1/cmr/bx/n/10.95 Technical
  []
 
 
-Overfull \hbox (144.65314pt too wide) in paragraph at lines 126--143
+Overfull \hbox (144.65314pt too wide) in paragraph at lines 132--149
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (35.59727pt too wide) in paragraph at lines 144--158
+Overfull \hbox (35.59727pt too wide) in paragraph at lines 150--164
  []$
  []
-
-
-Overfull \vbox (3.50974pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (10.0389pt too high) has occurred while \output is active []
-
 
 [1
 
 {C:/Users/pc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./abhayphoto.j
 pg>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 []\OT1/cmr/bx/n/10.95 Technical
  []
 
 
-Overfull \hbox (144.65314pt too wide) in paragraph at lines 162--175
+Overfull \hbox (144.65314pt too wide) in paragraph at lines 168--181
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (35.59727pt too wide) in paragraph at lines 176--185
+Overfull \hbox (35.59727pt too wide) in paragraph at lines 182--191
  []$
  []
 
 
-Overfull \hbox (262.00835pt too wide) in paragraph at lines 189--201
+Overfull \hbox (262.00835pt too wide) in paragraph at lines 196--208
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 []\OT1/cmr/bx/n/10.95 Extra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \OT1/cmr/bx/n/10.95 Curricular
  []
 
 
-Overfull \hbox (262.00835pt too wide) in paragraph at lines 205--214
+Overfull \hbox (262.00835pt too wide) in paragraph at lines 213--223
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 []\OT1/cmr/bx/n/10.95 Co-Curricular
  []
 
 
-Overfull \hbox (262.00835pt too wide) in paragraph at lines 218--229
+Overfull \hbox (262.00835pt too wide) in paragraph at lines 228--240
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 []\OT1/cmr/bx/n/10.95 Personal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 []\OT1/cmr/m/n/10.95 Nationality-Indian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 
-Overfull \hbox (273.96106pt too wide) in paragraph at lines 233--240
+Overfull \hbox (273.96106pt too wide) in paragraph at lines 245--252
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (273.96106pt too wide) in paragraph at lines 245--251
+Overfull \hbox (273.96106pt too wide) in paragraph at lines 258--264
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (273.96106pt too wide) in paragraph at lines 255--261
+Overfull \hbox (273.96106pt too wide) in paragraph at lines 269--275
 []$[]$ $[]$ 
  []
 
@@ -407,16 +390,16 @@ Overfull \hbox (273.96106pt too wide) in paragraph at lines 255--261
 Here is how much of TeX's memory you used:
  2050 strings out of 493305
  29641 string characters out of 3138883
- 105639 words of memory out of 3000000
+ 104639 words of memory out of 3000000
  5593 multiletter control sequences out of 15000+200000
  7292 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,28p,277b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,28p,277b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on document.pdf (2 pages, 125543 bytes).
+Output written on document.pdf (2 pages, 125445 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
