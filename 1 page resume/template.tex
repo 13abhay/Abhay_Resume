@@ -1,0 +1,157 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{} % Profile picture
+
+\cvname{ABHAY CHARAN} % Your name
+\cvjobtitle{} % Job title/career
+
+\cvdate{} % Date of birth
+\cvaddress{D-1025,Bindapur,ND-59} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+91 8826403904} % Phone number
+\cvsite{} % Personal website
+\cvmail{abhaycharan13@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{To apply and expand my knowledge and skill set in a demanding environment which allows me to enhance and develop my all-round skills and abilities.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+
+\skills{{Shell Scripting(Bash)/4.5},{MATLAB/3},{Java/3},{Python/5},{C,C++/5}}
+
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+\iskills{{Basics of Ethical Hacking \& Pentesting/2.5},{Robotics/4.5},{Web Development/4.5},{Deep Learning/4},{Machine Learning/4.5}}
+
+\oskills{{ROS/2.5},{LaTeX/3.5},{Cognitive Sciences \& Brain Psychology/2.5},{fMRI/4.5},{EEG/4.5}}
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{B.Tech {\normalfont in Computer Engineering}}{7.79/10(Upto 6th Sem)}{2015-2019(expected)}{\emph{JAMIA MILLIA ISLAMIA}}
+	\twentyitem{12th AND 10th }{87.4\% and 9.4/10}{2014 and 2012}{KENDRIYA VIDYALAYA JANAK PURI}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\section{Publications}
+%
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
+%	\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+%	\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+%	\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+%	\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards and Achievements}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{August 2018}{Co-Author for paper on Reconfiguration of Resting State Networks and resting EEG Microstates sent to 5th Annual Conference of Association for Cognitive Sciences(Accepted).}
+	\twentyitemshort{March 2018}{3rd position holder (National) in E-yantra Robotics Competition(IIT BOMBAY)
+		in Autonomous Chaser Drone theme.}
+	\twentyitemshort{April 2018}{Participated in Smart India Hackathon 2018 Grand Finale in project of Ship Trajectory's Anomaly Detection as Team Leader.}
+	\twentyitemshort{May 2014}{Silver medal in International Mathematics Olympiad by Amity University.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience and Projects}
+\\
+
+\begin{rSubsection}{Institute of Nuclear Medicine \& Allied Sciences, DRDO}{June 2018 - July 2018}{Intern}{}
+	\item {\em \bf Worked on evaluation of different Machine Learning models for EEG Microstates Estimation.}
+	\item Learned about fMRI,EEG,simultaneous EEG-fMRI and their processing.
+	\item Made automated scripts for EEG processing through standard tools. 
+	\item Helped other trainees in their projects related to Deep Learning.
+	\item Working on drafting a paper on a different approach to EEG microstates estimation.
+	%\item Co-Author for paper on Reconfiguration of Resting State Networks and resting EEG Microstates sent to 5th Annual Conference of Association for Cognitive Sciences(Result yet to declare).
+\end{rSubsection}
+
+\begin{rSubsection}{Cortex Logic(South African Startup)}{October 2017 - October 2017}{Web User Interface Developer(Remote)}{}
+	\item {\em \bf Worked in a team of 3 people for an AI Search Tool Project}
+	\item Connected the back-end application to front-end using MongoDB and Django where front-end was designed in Django Template Language(DTL).
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{The Student Hub(South African Startup)}{July 2017 - August 2017}{System Developer(Remote)}{}
+	\item {\em \bf Worked on building an educational platform (www.eraonline.co.za)}
+	\item Used Symfony framework, MYSQL and many core web development tools.
+	\item Added many features in the project like automatic E-Mail/SMS sender
+	whenever professor publishes new test. Fixed many previous bugs.
+	\item Recieved praises from the founder for quality work under strict deadline.
+	\\	
+\end{rSubsection}
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Extra-curricular Activities}
+\begin{itemize}
+	\item Volunteer for Brain Research Experiments at INMAS.
+	\item Basketball (Runner-ups) (4th sem) in Inter-department college competition.
+	\item Freestyle Football
+	\item Penning Quotes
+	\item Basic Spanish Language(Learning).
+\end{itemize}
+\end{document} 
