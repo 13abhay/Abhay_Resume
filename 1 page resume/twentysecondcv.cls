@@ -47,7 +47,7 @@
 %----------------------------------------------------------------------------------------
 
 \setlength{\TPHorizModule}{1cm} % Left margin
-\setlength{\TPVertModule}{1cm} % Top margin
+\setlength{\TPVertModule}{5cm} % Top margin
 
 \newlength\imagewidth
 \newlength\imagescale
@@ -120,9 +120,10 @@
 \newcommand\skillstext[1]{ 
 	\renewcommand{\skillstext}{
 		\begin{flushleft}
-			\foreach [count=\i] \x/\y in {#1}{ 
-				\x$ \star $\y
-			}
+			%\foreach [count=\i] \x/\y in {#1}{ 
+			%	\x$ \star $\y
+			%}
+			{#1}
 		\end{flushleft}
 	}
 }
@@ -191,9 +192,12 @@
 		
 		\iskills 
 		
+		\skillstext
+		
 		\emph{Other Skills}
 		
-		\oskills 
+		\oskills
+		 
 		
 		\scriptsize
 		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
@@ -287,7 +291,7 @@
 }
 
 \newcommand{\twentyitemshort}[2]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	#1&\parbox[t]{0.78\textwidth}{%
 		\textbf{#2}%
 		\vspace{5pt}
 	}\\
@@ -297,7 +301,7 @@
 %	 MARGINS AND LINKS
 %----------------------------------------------------------------------------------------
 
-\RequirePackage[left=7.6cm,top=0.1cm,right=1cm,bottom=0.2cm,nohead,nofoot]{geometry}
+\RequirePackage[left=7.6cm,top=.1cm,right=1cm,bottom=0.2cm,nohead,nofoot]{geometry}
 
 \RequirePackage{hyperref}
 
