@@ -83,10 +83,12 @@
 \newcommand\skills[1]{ 
 	\renewcommand{\skills}{
 		\begin{tikzpicture}
-			\foreach [count=\i] \x/\y in {#1}{
-				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-				\node [above right] at (0,\i+0.4) {\x};
+			\foreach [count=\i,evaluate={\k=\i*0.5}] \x/\y in {#1}
+			{
+			%	\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
+			%	\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
+			%\pgfmathsetmacro\result{\i-0.4}
+				\node [above right] at (0,\k+0.4) {$\bullet$\x};
 			}
 		\end{tikzpicture}
 	}
@@ -95,10 +97,10 @@
 \newcommand\iskills[1]{ 
 	\renewcommand{\iskills}{
 		\begin{tikzpicture}
-		\foreach [count=\i] \x/\y in {#1}{
-			\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-			\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-			\node [above right] at (0,\i+0.4) {\x};
+		\foreach [count=\i,evaluate={\k=\i*0.5}] \x/\y in {#1}{
+			%\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
+			%\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
+			\node [above right] at (0,\k+0.4) {$\bullet$\x};
 		}
 		\end{tikzpicture}
 	}
@@ -107,10 +109,10 @@
 \newcommand\oskills[1]{ 
 	\renewcommand{\oskills}{
 		\begin{tikzpicture}
-		\foreach [count=\i] \x/\y in {#1}{
-			\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-			\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-			\node [above right] at (0,\i+0.4) {\x};
+		\foreach [count=\i,evaluate={\k=\i*0.5}] \x/\y in {#1}{
+			%\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
+			%\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
+			\node [above right] at (0,\k+0.4) {$\bullet$\x};
 		}
 		\end{tikzpicture}
 	}
@@ -120,14 +122,53 @@
 \newcommand\skillstext[1]{ 
 	\renewcommand{\skillstext}{
 		\begin{flushleft}
-			%\foreach [count=\i] \x/\y in {#1}{ 
+			\foreach [count=\i] \x in {#1}{ 
 			%	\x$ \star $\y
 			%}
-			{#1}
+			{$\bullet$ \x\newline}
+		}
 		\end{flushleft}
 	}
 }
 
+\newcommand\oskillstext[1]{ 
+	\renewcommand{\oskillstext}{
+		\begin{flushleft}
+			\foreach [count=\i] \x in {#1}{ 
+				%	\x$ \star $\y
+				%}
+				{$\bullet$ \x\newline}
+			}
+		\end{flushleft}
+	}
+}
+
+\newcommand\iskillstext[1]{ 
+	\renewcommand{\iskillstext}{
+		\begin{flushleft}
+			\foreach [count=\i] \x in {#1}{ 
+				%	\x$ \star $\y
+				%}
+				{$\bullet$ \x\newline}
+			}
+		\end{flushleft}
+	}
+}
+
+
+\newcommand\currentprojects[1]{ 
+	\renewcommand{\currentprojects}{
+		\begin{flushleft}
+			\foreach [count=\i] \x in {#1}{ 
+				\ifnum\i=2%
+				{$\bullet$\x}%
+				\else%
+				{$\bullet$\x\newline\newline}%
+				\fi%
+			}
+		\end{flushleft}
+	}
+}
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR LAYOUT
 %----------------------------------------------------------------------------------------
@@ -181,26 +222,30 @@
 		}
 
 		%------------------------------------------------
+		\hrulefill
+		
+		\profilesection{Current Projects}
+		\currentprojects
+		
+		\hrulefill
 
 		\profilesection{Techincal Skills}
-		
-		\centering\emph{Programming Languages}
-		
-		\skills
-		
-		\emph{Industry Skills}
-		
-		\iskills 
+		\newline\newline
+		\centering\emph \textbf{\underline{Programming Languages}}
 		
 		\skillstext
 		
-		\emph{Other Skills}
+		\emph \textbf{\underline{Industry Skills}}
 		
-		\oskills
+		\iskillstext 
+		
+		\emph \textbf{\underline{Other Skills}}
+		
+		\oskillstext
 		 
 		
 		\scriptsize
-		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
+		%(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
 			
 		%------------------------------------------------
 			
